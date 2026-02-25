@@ -90,6 +90,7 @@ function renderJobs(jobs) {
         div.className = "flex flex-col gap-4 p-5 bg-white shadow-sm rounded-lg";
 
         div.innerHTML = `
+
             <div class="flex justify-between items-center">
                 <div>
                     <h2 class="text-xl text-[#002C5C] font-semibold">${job.company}</h2>
